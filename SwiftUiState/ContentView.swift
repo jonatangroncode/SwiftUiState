@@ -9,13 +9,16 @@ import SwiftUI
 
 //I struct får man inte ändra variabler för att dom skapas om hela tiden, så jag måste ha ett state
 struct ContentView: View {
-    @State var count = 0 //nu skapas alla views om som är beroende av variablen när den ändras
+   // @State var count = 0 //nu skapas alla views om som är beroende av variablen när den ändras
+    //@StateObject var counter = Counter() // för att nå de som finns i klassen
+    @EnvironmentObject var counter : Counter
+    
     
     var body: some View {
         VStack{
-            Text("\(count)") // beroende av State counter 
+            Text("\(counter.count)")
             Button(action: {
-                count += 1
+                counter.count += 1
             }) {
                 Text("Click")
             }

@@ -14,6 +14,7 @@
 		847068A8297195ED00E21BE6 /* SwiftUiStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847068A7297195ED00E21BE6 /* SwiftUiStateTests.swift */; };
 		847068B2297195ED00E21BE6 /* SwiftUiStateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847068B1297195ED00E21BE6 /* SwiftUiStateUITests.swift */; };
 		847068B4297195ED00E21BE6 /* SwiftUiStateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847068B3297195ED00E21BE6 /* SwiftUiStateUITestsLaunchTests.swift */; };
+		847068C12971F69C00E21BE6 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847068C02971F69C00E21BE6 /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		847068AD297195ED00E21BE6 /* SwiftUiStateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiStateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847068B1297195ED00E21BE6 /* SwiftUiStateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiStateUITests.swift; sourceTree = "<group>"; };
 		847068B3297195ED00E21BE6 /* SwiftUiStateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiStateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		847068C02971F69C00E21BE6 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				84706898297195E500E21BE6 /* ContentView.swift */,
 				8470689A297195EC00E21BE6 /* Assets.xcassets */,
 				8470689C297195EC00E21BE6 /* Preview Content */,
+				847068C02971F69C00E21BE6 /* Counter.swift */,
 			);
 			path = SwiftUiState;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				84706899297195E500E21BE6 /* ContentView.swift in Sources */,
 				84706897297195E500E21BE6 /* SwiftUiStateApp.swift in Sources */,
+				847068C12971F69C00E21BE6 /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
